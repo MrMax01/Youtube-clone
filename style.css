@@ -15,6 +15,7 @@ body{
     height: 100%; /*100% l'altezza del parent*/
 }
 
+/***********************************SIDEBAR**********************/
 #sidebar{
     display: flex;
     flex-direction: column;
@@ -35,6 +36,12 @@ body{
     font-size: 2em;
 }
 
+#menu-icon{
+    padding-top: 1.1em;
+}
+
+
+/*************************TOPBAR**********************************/
 #topbar{
     display: flex;
     justify-content: space-between;
@@ -49,22 +56,72 @@ body{
 .search-wrapper{
     display: flex;
     height: 50%;
+    width: 30%;
 }
 
 .search-wrapper input{
     height: 2em;
+    width: 100%;
 }
 
 .search-wrapper button{
     height: 2em;
 }
 
-#topbar-icon{
+#topbar-icons{
     display: flex;
     align-content: center;
 }
 
-#topbar-icon ion-icon{
+#topbar-icons ion-icon{
     font-size: 2em;
-    margin: 0 0.5em;
+    padding: 0 0.5em;
 }
+
+#search-btn{
+    font-size: 1em;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon ion-icon{
+    font-size: 1.8em;
+    margin: 0 0.3em;
+}
+
+/*****************************CONTENT*******************************/
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail-img{
+    padding: 1.5em 0 0.5em 0;
+    height: 15em;
+}
+
+.epicode-logo{
+    height: 3em;
+    padding-right: 0.9em;
+}
+
+.thumbnail-arguments{
+    display: flex;
+}
+
+
+h4{ 
+    margin: 0.2em;
+    padding: 0;
+} 
+
+p{
+    margin: 0 0.2em;
+} 
